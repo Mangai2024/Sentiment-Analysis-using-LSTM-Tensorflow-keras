@@ -1,20 +1,49 @@
-# Sentiment-Analysis-using-LSTM-Tensorflow-kerasSentiment-Analysis-using-LSTM-Tensorflow/keras
-📌 Project Overview
+# **Sentiment Analysis Web App**
 
-This project is a Sentiment Analysis Web App built using Hugging Face Transformers, TensorFlow. It takes user input (a text sentence) and predicts the sentiment as Positive, Negative, or Neutral with confidence scores.
+📌 **Project Overview**  
+This project is a **Sentiment Analysis Web App** built using **Hugging Face Transformers** and **TensorFlow**.  
+It takes **user input (a text sentence)** and predicts the sentiment as **Positive, Negative, or Neutral** with confidence scores.  
 
-🚀 Features
+---
 
-🔹 Real-time sentiment prediction
+## 🚀 **Features**
+- 🔹 **Real-time sentiment prediction**  
+- 🔹 **Pre-trained transformer model (Hugging Face)**  
+- 🔹 Confidence score output  
 
-🔹 Pre-trained transformer model from Hugging Face
+---
 
-🛠️ Tech Stack
+## 🛠️ **Tech Stack**
+- **Python 3.9+**  
+- **Transformers (Hugging Face)**  
+- **TensorFlow**  
 
-Python 3.9+
+---
 
-Transformers (Hugging Face)
+## ✅ **Project Details**
+- **Hugging Face** → Used for downloading + applying **pre-trained NLP model** for sentiment classification  
+- **TensorFlow** → Backend engine running the **model predictions**  
 
-TensorFlow
+---
 
-In My project: ✅ Hugging Face = used for downloading + applying pre-trained NLP model for sentiment classification. ✅ TensorFlow = backend engine running the model.
+## 🚀 **How to Run**
+1. Clone the repository:  
+   ```bash
+   git clone https://github.com/your-username/sentiment-analysis-webapp.git
+Install the dependencies:
+
+bash
+Copy code
+pip install -r requirements.txt
+Run the Streamlit app:
+
+bash
+Copy code
+streamlit run app.py
+📧 Support
+If you face any issues, please open an issue in this repository.
+
+yaml
+Copy code
+
+---
